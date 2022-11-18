@@ -160,12 +160,12 @@ int main()
 }
 
 // Output:
-// Sorted array: 0 12 17 23 31 37 46 54 72 88 100
+// Sorted array: 0 12 17 23 31 33 46 74 72 88 100
 // End binary insertion sort
 
 // code from nahid start here
 // program to check if a number is prime or not
-// take input from the user
+// take given input from the user side
 
 const number = parseInt(prompt("Enter a positive number: "));
 let isPrime = true;
