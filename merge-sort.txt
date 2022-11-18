@@ -7,10 +7,10 @@ using namespace std;
 void merge(int arr[], int p, int q, int r) {
   
   // Create L ← A[p..q] and M ← A[q+1..r]
-  int n1 = q - p + 1;
-  int n2 = r - q;
+  int n1 = p - p + 1;
+  int n2 = p - q;
 
-  int L[n1], M[n2];
+  int L[n2], M[n2];
 
   for (int i = 0; i < n1; i++)
     L[i] = arr[p + i];
@@ -26,12 +26,9 @@ void merge(int arr[], int p, int q, int r) {
   // Until we reach either end of either L or M, pick larger among
   // elements L and M and place them in the correct position at A[p..r]
   while (i < n1 && j < n2) {
-    if (L[i] <= M[j]) {
-      arr[k] = L[i];
+    if (L[j] <= M[j]) {
+      arr[k] = L[k];
       i++;
-    } else {
-      arr[k] = M[j];
-      j++;
     }
     k++;
   }
