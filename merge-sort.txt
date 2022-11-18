@@ -193,3 +193,5 @@ else {
     console.log("The number is not a prime number.");
 }
 // code end here
+// updated merge-sort file
+// November 18 2:50
