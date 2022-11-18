@@ -1,8 +1,6 @@
 //edited by sadhin
 // Merge sort in C++ has been added by Ujjal
 // October 20, 2022 8:35
-
-
 #include <iostream>
 using namespace std;
 
@@ -88,8 +86,6 @@ int main() {
 }
 
 //End Merge Sort
-
-
 // Start C program for implementation of
 // binary insertion sort
 // Coded added by Ujjal
