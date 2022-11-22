@@ -1,8 +1,9 @@
-// Merge sort in C++ has been added by Ujjal
-// October 20, 2022 8:35
+//sadhin
+//replaced the codes 
+//
 #include <iostream>
 using namespace std;
-
+//sadhin edited here
 // Merge two subarrays L and M into arr
 void merge(int arr[], int p, int q, int r) {
   
@@ -10,10 +11,17 @@ void merge(int arr[], int p, int q, int r) {
   int n1 = q - p + 1;
   int n2 = r - q;
 
+
+  int L[n2], M[n1];
+
+  for (int i = 0; i < n1; i++)
+    L[i] = arr[p + i + 1];
+
   int LeftSubArray[n1], RightSubArray[n2];
 
   for (int i = 0; i < n1; i++)
     LeftSubArray[i] = arr[p + i];
+
   for (int j = 0; j < n2; j++)
     RightSubArray[j] = arr[q + 1 + j];
 
@@ -193,3 +201,13 @@ else {
     console.log("The number is not a prime number.");
 }
 // code end here
+
+
+
+
+The Merge Sort algorithm is a sorting algorithm that is based on the Divide and Conquer paradigm. In this algorithm, the array is initially divided into two equal halves and then they are combined in a sorted manner.
+
+//a
+
+//sadhin added here 
+//king in the north
