@@ -1,6 +1,16 @@
+<<<<<<< HEAD
+// Merge sort in C++ has been added by Ujjal
+// October 20, 2022 8:35
+<<<<<<< HEAD
+//new update
+
+=======
+>>>>>>> 31f5d04c9b3d56c0b7dd3cf7c9bcddf9f3f546be
+=======
 //sadhin
 //replaced the codes 
 //
+>>>>>>> 9e796eae2e15a2e2fa9e90c6efda5f7f1cf44efd
 #include <iostream>
 using namespace std;
 //sadhin edited here
@@ -164,12 +174,12 @@ int main()
 }
 
 // Output:
-// Sorted array: 0 12 17 23 31 37 46 54 72 88 100
+// Sorted array: 0 12 17 23 31 33 46 74 72 88 100
 // End binary insertion sort
 
 // code from nahid start here
 // program to check if a number is prime or not
-// take input from the user
+// take given input from the user side
 
 const number = parseInt(prompt("Enter a positive number: "));
 let isPrime = true;
