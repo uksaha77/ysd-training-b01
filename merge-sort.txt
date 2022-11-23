@@ -3,7 +3,7 @@
 // Updated by Nur Uddin
 #include <iostream>
 using namespace std;
-
+//sadhin edited here
 // Merge two subarrays L and M into arr
 void merge(int arr[], int p, int q, int r) {
   
@@ -11,10 +11,17 @@ void merge(int arr[], int p, int q, int r) {
   int n1 = q - p + 1;
   int n2 = r - q;
 
+
   int LeftSubArray[n1], RightSubArray[n2];
 
   for (int i = 0; i < n1; i++)
     LeftSubArray[i] = arr[p + i];
+
+  int L[n2], M[n1];
+
+  for (int i = 0; i < n1; i++)
+    L[i] = arr[p + i + 1];
+
   for (int j = 0; j < n2; j++)
     RightSubArray[j] = arr[q + 1 + j];
 
@@ -139,7 +146,6 @@ void insertionSort(int a[], int n)
         a[j + 1] = selected;
     }
 }
-  
 // Driver Code
 int main()
 {
@@ -155,23 +161,19 @@ int main()
   
     return 0;
 }
-
 // Output:
 // Sorted array: 0 12 17 23 31 37 46 54 72 88 100
 // End binary insertion sort
-
 // code from nahid start here
 // program to check if a number is prime or not
 // take input from the user
 
 const number = parseInt(prompt("Enter a positive number: "));
 let isPrime = true;
-
 // check if number is equal to 1
 if (number === 1) {
     console.log("1 is neither prime nor composite number.");
 }
-
 // check if number is greater than 1
 else if (number > 1) {
     // looping through 2 to number-1
@@ -188,11 +190,16 @@ else if (number > 1) {
         console.log(`${number} is a not prime number`);
     }
 }
-
-// check if number is less than 1
+// check if number is less than 
 else {
     console.log("The number is not a prime number.");
 }
 // code end here
 // updated merge-sort file
 // November 18 2:50
+=======
+=========merge sort by masfiq30002=====
+The Merge Sort algorithm is a sorting algorithm that is based on the Divide and Conquer paradigm. In this algorithm, the array is initially divided into two equal halves and then they are combined in a sorted manner.
+=======
+//a
+// one comment added.
