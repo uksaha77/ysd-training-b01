@@ -1,16 +1,10 @@
-<<<<<<< HEAD
 // Merge sort in C++ has been added by Ujjal
 // October 20, 2022 8:35
-<<<<<<< HEAD
 //new update
 
-=======
->>>>>>> 31f5d04c9b3d56c0b7dd3cf7c9bcddf9f3f546be
-=======
 //sadhin
 //replaced the codes 
 //
->>>>>>> 9e796eae2e15a2e2fa9e90c6efda5f7f1cf44efd
 #include <iostream>
 using namespace std;
 //sadhin edited here
