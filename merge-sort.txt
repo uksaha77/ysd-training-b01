@@ -1,6 +1,10 @@
 // Merge sort in C++ has been added by Ujjal
 // October 20, 2022 8:35
-// Updated by Nur Uddin
+//new update
+
+//sadhin
+//replaced the codes 
+//
 #include <iostream>
 using namespace std;
 //sadhin edited here
@@ -11,16 +15,19 @@ void merge(int arr[], int p, int q, int r) {
   int n1 = q - p + 1;
   int n2 = r - q;
 
+  int LeftSubArray[n1], RightSubArray[n2];
+
+  for (int i = 0; i < n1; i++)
+    LeftSubArray[i] = arr[p + i];
+  int L[n2], M[n1];
+
+  for (int i = 0; i < n1; i++)
+    L[i] = arr[p + i + 1];
 
   int LeftSubArray[n1], RightSubArray[n2];
 
   for (int i = 0; i < n1; i++)
     LeftSubArray[i] = arr[p + i];
-
-  int L[n2], M[n1];
-
-  for (int i = 0; i < n1; i++)
-    L[i] = arr[p + i + 1];
 
   for (int j = 0; j < n2; j++)
     RightSubArray[j] = arr[q + 1 + j];
@@ -162,11 +169,11 @@ int main()
     return 0;
 }
 // Output:
-// Sorted array: 0 12 17 23 31 37 46 54 72 88 100
+// Sorted array: 0 12 17 23 31 33 46 74 72 88 100
 // End binary insertion sort
 // code from nahid start here
 // program to check if a number is prime or not
-// take input from the user
+// take given input from the user side
 
 const number = parseInt(prompt("Enter a positive number: "));
 let isPrime = true;
@@ -195,11 +202,13 @@ else {
     console.log("The number is not a prime number.");
 }
 // code end here
+
 // updated merge-sort file
 // November 18 2:50
-=======
-=========merge sort by masfiq30002=====
+
 The Merge Sort algorithm is a sorting algorithm that is based on the Divide and Conquer paradigm. In this algorithm, the array is initially divided into two equal halves and then they are combined in a sorted manner.
-=======
 //a
 // one comment added.
+//sadhin added here 
+//king in the north
+
